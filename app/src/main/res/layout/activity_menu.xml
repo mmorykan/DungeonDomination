@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/stickman"
+        android:layout_width="294dp"
+        android:layout_height="243dp"
+        android:contentDescription="@string/picture_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/dungeon_explorer_foreground" />
+
+    <TextView
+        android:id="@+id/menu_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineProvider="none"
+        android:paddingStart="0dp"
+        android:paddingEnd="5dp"
+        android:shadowColor="#000000"
+        android:shadowDx="3.5"
+        android:shadowDy="3.3"
+        android:shadowRadius="1.6"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/adventure_button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#978F8F"
+        android:text="@string/adventure_button"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <ImageButton
+        android:id="@+id/settings_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#978F8F"
+        android:contentDescription="@string/settings_button_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954"
+        app:srcCompat="@drawable/settings" />
+
+    <ImageButton
+        android:id="@+id/store_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#978F8F"
+        android:contentDescription="@string/store_button_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954"
+        app:srcCompat="@drawable/store" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

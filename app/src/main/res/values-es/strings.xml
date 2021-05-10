@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dominación de Mazmorras</string>
+    <string name="adventure_button">AVENTURAS</string>
+    <string name="press_to_start">TOCA LA PANTALLA</string>
+    <string name="settings">Ajustes</string>
+    <string name="music">Música  </string>
+    <string name="difficulty">dificultad</string>
+    <string name="musicOn">música</string>
+    <string name="color">color</string>
+    <string name="choose_difficulty">Elige Dificultad</string>
+    <string name="choose_color">Color del Jugador</string>
+    <string name="color_white">Blanco</string>
+    <string name="color_orange">Naranja</string>
+    <string name="color_purple">Morado</string>
+    <string name="easy">Fácil</string>
+    <string name="medium">Medio</string>
+    <string name="hard">Duro</string>
+    <string name="store">Tienda</string>
+    <string name="coins">C</string>
+    <string name="coin_balance">Monedas: %1$s</string>
+    <string name="coins_key">monedas</string>
+    <string name="hp">HP: </string>
+    <string name="weapon_upgrades">mejorasDeArmasCompradas</string>
+    <string name="game_over_lost">La Misión Ha Fallado</string>
+    <string name="game_over_won">Aventura Completa</string>
+    <string name="weapon_upgrade">Mejora de Arma: +5 Daño</string>
+    <string name="upgrade_1_cost">100</string>
+    <string name="upgrade_2_cost">1000</string>
+    <string name="upgrade_3_cost">5000</string>
+    <string name="upgrade_purchased">VENDIDO</string>
+    <string name="picture_desc">Imagen del personaje del jugador</string>
+    <string name="settings_button_desc">Botón para la actividad de configuración</string>
+    <string name="settings_back_button_desc">Botón para volver a la actividad del menú</string>
+    <string name="store_button_desc">Botón para la actividad de la tienda</string>
+    <string name="upgrade_1_desc">Icono de Actualización</string>
+    <string name="upgrade_2_desc">Icono de Actualización</string>
+    <string name="upgrade_3_desc">Icono de Actualización</string>
+</resources>
